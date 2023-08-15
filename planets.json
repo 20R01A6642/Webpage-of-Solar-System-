@@ -1,0 +1,37 @@
+{
+    "planets": [
+      {
+        "name": "mercury",
+        "image": "mercury.jpg"
+      },
+      {
+        "name": "venus",
+        "image": "venus.jpg"
+      },
+      {
+        "name": "earth",
+        "image": "earth.jpg"
+      },
+      {
+        "name": "mars",
+        "image": "mars.jpg"
+      },
+      
+    {
+        "name": "jupiter",
+        "image": "jupiter.jpg"
+      },
+      {
+        "name": "saturn",
+        "image": "saturn.jpg"
+      },
+      {
+        "name": "uranus",
+        "image": "uranus.jpg"
+      },
+      {
+        "name": "neptune",
+        "image": "neptune.jpg"
+      }
+    ]
+  }

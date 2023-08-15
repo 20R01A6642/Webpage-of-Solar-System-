@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  #sun {
+    background-image: url(sun.jpg);
+    background-size: 150px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 75px);
+    border-radius: 50%;
+    animation: rotate 20s linear infinite;
+  }
+  
+  .planet {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    animation: orbit 20s linear infinite;
+  }
+  
+  #mercury {
+    background-image: url(mercury.jpg);
+    top: calc(50% - 140px);
+    left: calc(50% - 40px);
+    animation-duration: 4s;
+    position: absolute;
+    display: block;
+  }
+  
+  #venus {
+    background-image: url(venus.jpg);
+    top: calc(50% - 115px);
+    left: calc(50% - 65px);
+    animation-duration: 8s;
+    position: absolute;
+    display: block;
+  }
+  
+  #earth {
+    background-image: url(earth.jpg);
+    top: calc(50% - 90px);
+    left: calc(50% - 90px);
+    animation-duration: 12s;
+    position: absolute;
+    display: block;
+  }
+  
+  #mars {
+    background-image: url(mars.jpg);
+    top: calc(50% - 65px);
+    left: calc(50% - 115px);
+    animation-duration: 16s;
+    position: absolute;
+    display: block;
+  }
+  
+  #jupiter {
+    background-image: url(jupiter.jpg);
+    top: calc(50% - 40px);
+    left: calc(50% - 140px);
+    animation-duration: 20s;
+    position: absolute;
+    display: block;
+  }
+  
+  #saturn {
+    background-image: url(saturn.jpg);
+    top: calc(50% - 30px);
+    left: calc(50% - 150px);
+    animation-duration: 24s;
+    position: absolute;
+    display: block;
+  }
+  
+  #uranus {
+    background-image: url(uranus.jpg);
+    top: calc(50% - 20px);
+    left: calc(50% - 160px);
+    animation-duration: 28s;
+    position: absolute;
+    display: block;
+  }
+  
+  #neptune {
+    background-image: url(neptune.jpg);
+    top: calc(50% - 10px);
+    left: calc(50% - 170px);
+    animation-duration: 32s;
+    position: absolute;
+    display: block;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes orbit {
+    from {
+      transform: rotate(0deg) translateX(120px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateX(120px) rotate(-360deg);
+    }
+  }
